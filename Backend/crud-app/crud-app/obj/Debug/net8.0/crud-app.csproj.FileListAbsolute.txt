@@ -257,6 +257,7 @@ E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-
 E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\obj\Debug\net8.0\crud-app.csproj.CoreCompileInputs.cache
 E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\obj\Debug\net8.0\crud-app.MvcApplicationPartsAssemblyInfo.cs
 E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\obj\Debug\net8.0\crud-app.MvcApplicationPartsAssemblyInfo.cache
+E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\obj\Debug\net8.0\crud-app.sourcelink.json
 E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\obj\Debug\net8.0\staticwebassets.build.json
 E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\obj\Debug\net8.0\staticwebassets.development.json
 E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\obj\Debug\net8.0\staticwebassets\msbuild.crud-app.Microsoft.AspNetCore.StaticWebAssets.props

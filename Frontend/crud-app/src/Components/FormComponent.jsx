@@ -25,7 +25,7 @@ const FormComponent = () => {
   },[])
 
   const getData = () => {
-    axios.get('https://localhost:7223/api/Student')
+    axios.get('https://localhost:5258/api/Student')
     .then((result)=>{
         setData(result.data)
     })
@@ -35,7 +35,7 @@ const FormComponent = () => {
   }
 
   const handleSave = () => {
-    const url = 'https://localhost:7223/api/Student';
+    const url = 'https://localhost:5258/api/Student';
     const data = {
         "FirstName" : fname,
         "LastName" : lname,
