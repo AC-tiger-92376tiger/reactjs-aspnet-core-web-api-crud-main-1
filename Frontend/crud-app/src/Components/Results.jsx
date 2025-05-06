@@ -9,6 +9,7 @@ import Row from 'react-bootstrap/Row';
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import axios from "axios";
+import { API_BASE_URL } from '../config';
 
 
 const Results = () => {
@@ -51,7 +52,7 @@ const Results = () => {
   },[])
 
   const getData = () => {
-    axios.get('http://127.0.0.1:5258/api/Student')
+    axios.get(API_BASE_URL)
     .then((result)=>{
         setData(result.data)
     })
@@ -62,7 +63,7 @@ const Results = () => {
 
   const handleEdit = (id) => {
     handleShow();
-    axios.get(`http://localhost:5258/api/Student/${id}`)
+    axios.get(`${API_BASE_URL}/${id}`)
     .then((result)=>{
         setEditFname(result.data.firstName);
         setEditLname(result.data.lastName);
@@ -79,7 +80,7 @@ const Results = () => {
   }
 
   const handleUpdate = () => {
-    const url = `http://localhost:5258/api/Student/${editID}`;
+    const url = `${API_BASE_URL}/${editID}`;
     const data = {
         "Id" : editID,
         "FirstName" : editFname,
@@ -105,7 +106,7 @@ const Results = () => {
   const handleDelete = (id) => {
     if(window.confirm("Are you sure to delete this employee") === true)
     {
-        axios.delete(`http://localhost:5258/api/Student/${id}`)
+        axios.delete(`${API_BASE_URL}/${id}`)
         .then((result)=>{
             if(result.status === 200)
             {
