@@ -51,7 +51,7 @@ const Results = () => {
   },[])
 
   const getData = () => {
-    axios.get('https://localhost:7223/api/Student')
+    axios.get('http://127.0.0.1:5258/api/Student')
     .then((result)=>{
         setData(result.data)
     })
@@ -62,7 +62,7 @@ const Results = () => {
 
   const handleEdit = (id) => {
     handleShow();
-    axios.get(`https://localhost:7223/api/Student/${id}`)
+    axios.get(`http://localhost:5258/api/Student/${id}`)
     .then((result)=>{
         setEditFname(result.data.fname);
         setEditLname(result.data.lname);
@@ -79,7 +79,7 @@ const Results = () => {
   }
 
   const handleUpdate = () => {
-    const url = `https://localhost:7223/api/Student/${editID}`;
+    const url = `http://localhost:5258/api/Student/${editID}`;
     const data = {
         "Id" : editID,
         "FirstName" : editFname,
@@ -105,7 +105,7 @@ const Results = () => {
   const handleDelete = (id) => {
     if(window.confirm("Are you sure to delete this employee") === true)
     {
-        axios.delete(`https://localhost:7223/api/Student/${id}`)
+        axios.delete(`http://localhost:5258/api/Student/${id}`)
         .then((result)=>{
             if(result.status === 200)
             {

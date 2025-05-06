@@ -2,6 +2,8 @@ using crud_app.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<StudentContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add services to the container.
 
@@ -9,10 +11,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+/*
 builder.Services.AddDbContext<StudentContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("StudentConnection")));
-
+*/
 builder.Services.AddCors();
 
 var app = builder.Build();
