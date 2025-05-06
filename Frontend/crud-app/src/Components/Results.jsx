@@ -64,8 +64,8 @@ const Results = () => {
     handleShow();
     axios.get(`http://localhost:5258/api/Student/${id}`)
     .then((result)=>{
-        setEditFname(result.data.fname);
-        setEditLname(result.data.lname);
+        setEditFname(result.data.firstName);
+        setEditLname(result.data.lastName);
         setEditEmail(result.data.email);
         setEditAddress(result.data.address);
         setEditCity(result.data.city);
@@ -86,7 +86,7 @@ const Results = () => {
         "LastName" : editLname,
         "Email" : editEmail,
         "address" : editAddress,
-        "Address" : editCity,
+        "city" : editCity,
         "Age" : editAge,
         "IsCheck" : isEditCheck
     }
@@ -151,8 +151,8 @@ const Results = () => {
                                 return(
                                     <tr key={index}>
                                         <td>{index+1}</td>
-                                        <td>{item.fname}</td>
-                                        <td>{item.lname}</td>
+                                        <td>{item.firstName}</td>
+                                        <td>{item.lastName}</td>
                                         <td>{item.email}</td>
                                         <td>{item.address}</td>
                                         <td>{item.age}</td>
@@ -181,39 +181,39 @@ const Results = () => {
               <Row className="mb-3">
               <Form.Group as={Col} controlId="formGridEmail">
                 <Form.Label>First Name</Form.Label>
-                <Form.Control type="text" placeholder="Enter First Name" value={fname} onChange={(e)=>setEditFname(e.target.value)} />
+                <Form.Control type="text" placeholder="Enter First Name" value={editFname} onChange={(e)=>setEditFname(e.target.value)} />
               </Form.Group>
 
               <Form.Group as={Col} controlId="formGridPassword">
                 <Form.Label>Last Name</Form.Label>
-                <Form.Control type="text" placeholder="Enter Last Name" value={lname} onChange={(e)=>setEditLname(e.target.value)} />
+                <Form.Control type="text" placeholder="Enter Last Name" value={editLname} onChange={(e)=>setEditLname(e.target.value)} />
               </Form.Group>
               </Row>
 
               <Form.Group className="mb-3" controlId="formGridEmail">
                 <Form.Label>Email</Form.Label>
-                <Form.Control type='email' placeholder="Enter email" value={email} onChange={(e)=>setEditEmail(e.target.value)} />
+                <Form.Control type='email' placeholder="Enter email" value={editEmail} onChange={(e)=>setEditEmail(e.target.value)} />
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formGridAddress">
                 <Form.Label>Address</Form.Label>
-                <Form.Control placeholder="Apartment, studio, or floor" value={address} onChange={(e)=>setEditAddress(e.target.value)} />
+                <Form.Control placeholder="Apartment, studio, or floor" value={editAddress} onChange={(e)=>setEditAddress(e.target.value)} />
               </Form.Group>
 
               <Row className="mb-3">
                 <Form.Group as={Col} controlId="formGridAge">
                   <Form.Label>Age</Form.Label>
-                  <Form.Control type="text" value={age} onChange={(e)=>setEditAge(e.target.value)} />
+                  <Form.Control type="text" value={editAge} onChange={(e)=>setEditAge(e.target.value)} />
                 </Form.Group>
 
                 <Form.Group as={Col} controlId="formGridCity">
                   <Form.Label>City</Form.Label>
-                  <Form.Control type="text" value={city} onChange={(e)=>setEditCity(e.target.value)} />
+                  <Form.Control type="text" value={editCity} onChange={(e)=>setEditCity(e.target.value)} />
                 </Form.Group>
               </Row>
 
               <Form.Group className="mb-3" id="formGridCheckbox">
-                <Form.Check type="checkbox" label="Check me out" checked={isCheck === 1 ? true : false} value={setEditIsCheck} onChange={(e)=>handleCheckEditChange(e)}/>
+                <Form.Check type="checkbox" label="Check me out" checked={isEditCheck === 1 ? true : false} value={isEditCheck} onChange={(e)=>handleCheckEditChange(e)}/>
               </Form.Group>             
             </Form>
           </Modal.Body>

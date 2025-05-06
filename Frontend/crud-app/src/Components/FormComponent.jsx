@@ -19,11 +19,11 @@ const FormComponent = () => {
   const [isCheck, setIsCheck] = useState(0)
 
   const [data, setData] = useState([]);
-
+/*
   useEffect(()=>{
     getData();
   },[])
-
+*/
   const getData = () => {
     axios.get('http://localhost:5258/api/Student')
     .then((result)=>{
