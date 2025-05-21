@@ -240,3 +240,14 @@ E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-
 E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\obj\Debug\net8.0\ref\crud-app.dll
 E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\bin\Debug\net8.0\Npgsql.dll
 E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\bin\Debug\net8.0\IdentityModel.dll
+E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\MyData\Work\React+.NET CORE\Start\Portfolio\reactjs-aspnet-core-web-api-crud-main\Backend\crud-app\crud-app\bin\Debug\net8.0\BCrypt.Net-Next.dll
