@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "JgXhWwwf7oy+s/D5DtcrYHGhBOql2o35/vOXiEnaPzI=",
+  "Hash": "GaMDgN7JAQyftH4e6KPLGIyJA3aIkP/yjUAeO1P/C/Y=",
   "Source": "crud-app",
   "BasePath": "_content/crud-app",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

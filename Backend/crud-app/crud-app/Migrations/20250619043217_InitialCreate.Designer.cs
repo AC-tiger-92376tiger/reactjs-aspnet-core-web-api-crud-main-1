@@ -12,8 +12,8 @@ using crud_app.Models;
 namespace crud_app.Migrations
 {
     [DbContext(typeof(StudentContext))]
-    [Migration("20250512163516_AddUserTable")]
-    partial class AddUserTable
+    [Migration("20250619043217_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
